@@ -6,7 +6,7 @@
  * create by xiflys
  */
 
-namespace xiflys;
+namespace xiflys\jiguangfile;
 
 
 class CurlUrl
