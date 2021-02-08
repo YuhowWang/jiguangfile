@@ -8,6 +8,11 @@
             "email": "15267840622@163.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "xiflys\\": "src"
+        }
+    },
     "minimum-stability": "alpha",
     "require": {}
 }
