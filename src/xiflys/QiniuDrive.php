@@ -6,8 +6,7 @@
  * create by xiflys
  */
 
-namespace fly;
-require 'CurlUrl.php';
+namespace xiflys;
 
 class QiniuDrive
 {
@@ -20,7 +19,7 @@ class QiniuDrive
      * @param string $filename 本地文件
      */
     public function upload($cloudname,$filename){
-        $curl = CurlUrl::getInstance();
+        $curl = \xiflys\CurlUrl::getInstance();
         $res = $curl->set_curl()
             ->url('https://upload.qiniup.com/')
             ->header(0,[])
@@ -56,7 +55,7 @@ class QiniuDrive
     }
 
     public function getToken(){
-        $curl = CurlUrl::getInstance();
+        $curl = \xiflys\CurlUrl::getInstance();
         $res = $curl->set_curl()
             ->url('https://svr-community.jpush.cn/community/v1/user/upload/token')
             ->header(0,[

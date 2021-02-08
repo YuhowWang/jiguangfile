@@ -6,7 +6,7 @@
  * create by xiflys
  */
 
-namespace fly;
+namespace xiflys;
 
 
 class CurlUrl
