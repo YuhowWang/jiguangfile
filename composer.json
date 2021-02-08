@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "xiflys\\": "src/xifly"
+            "xiflys\\": "src"
         }
     },
     "minimum-stability": "dev",
