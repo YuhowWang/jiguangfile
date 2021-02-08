@@ -1,0 +1,13 @@
+{
+    "name": "fly/jiguangfile",
+    "type": "1",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "aimer",
+            "email": "15267840622@163.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
